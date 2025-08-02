@@ -19,10 +19,16 @@ return (
                     Hi, I’m <span className="text-indigo-600 dark:text-indigo-400">Ajay Agrawal</span>
                 </h1>
                 <h2 className="text-xl sm:text-2xl font-semibold text-gray-700 dark:text-gray-300">
-                    Full Stack Developer
+                    Java Full Stack Developer
                 </h2>
                 <p className="text-gray-600 dark:text-gray-400 max-w-xl">
-                    I craft responsive websites and web applications that deliver pixel-perfect experiences with cutting-edge technologies.
+                    Backend Java Developer with over 5+ years of experience designing and
+developing scalable, high-performance web applications using Java,
+Spring Boot, and Microservices. Strong expertise in RESTful API design,
+Kafka-based messaging systems, and Elasticsearch. Proven ability to
+work in Agile environments and deliver production-grade solutions in
+cloud-native deployments (PCF & OCP). Skilled in JPA, Hibernate, unit
+testing with JUnit, and CI/CD integration.
                 </p>
 
                 {/* Call-to-Actions */}
@@ -44,7 +50,7 @@ return (
                         Contact Me
                     </a>
                     <a
-                        href="https://drive.google.com/file/d/1vypp7jKZcWShIaC3s-cc2bhbAYebL-Yn/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1BLeKo4L_k_L9uUahD2mtOTh7B8JFC9s-/view?usp=drivesdk"
                         className="px-6 py-3 border border-indigo-600 text-indigo-600 dark:text-indigo-400 dark:border-indigo-400 rounded-full hover:bg-indigo-100 dark:hover:bg-indigo-900 transition duration-300"
                         target="_blank"
                         rel="noopener noreferrer"
