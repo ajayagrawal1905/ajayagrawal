@@ -11,10 +11,33 @@ import {
   FaReact,
   FaNodeJs,
   FaPython,
-  FaDocker
+  FaDocker,
+  FaGitAlt,
+  FaGithub
 } from 'react-icons/fa';
 import { motion } from 'framer-motion';
-import { SiSolidity, SiWeb3Dotjs, SiTypescript } from 'react-icons/si';
+import {
+  SiSolidity,
+  SiWeb3Dotjs,
+  SiTypescript,
+  SiSpring,
+  SiMicrogenetics,
+  SiApachekafka,
+  SiElasticsearch,
+  SiMysql,
+  SiPostgresql,
+  // SiCassandra,
+  // SiOpenshift,
+  SiPivotaltracker,
+  SiJenkins,
+  SiPostman,
+  SiJunit5,
+  SiSonarqube,
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  // SiJava
+} from 'react-icons/si';
 
 const About = () => {
   // State for animated stats
@@ -25,16 +48,26 @@ const About = () => {
   
   // Tech stack items with icons
   const techStack = [
-    { icon: <FaReact className="text-blue-500" />, name: "React" },
-    { icon: <FaNodeJs className="text-green-600" />, name: "Node.js" },
-    { icon: <SiTypescript className="text-blue-700" />, name: "TypeScript" },
-    { icon: <FaPython className="text-yellow-500" />, name: "Python" },
-    { icon: <SiSolidity className="text-gray-600" />, name: "Solidity" },
-    { icon: <SiWeb3Dotjs className="text-yellow-400" />, name: "Web3.js" },
-    { icon: <FaEthereum className="text-purple-600" />, name: "Ethereum" },
-    { icon: <FaDatabase className="text-teal-500" />, name: "MongoDB" },
-    { icon: <FaServer className="text-gray-400" />, name: "Express" },
-    { icon: <FaDocker className="text-blue-400" />, name: "Docker" },
+    // { icon: <FaJava className="text-red-600" />, name: "Java" },
+  { icon: <SiSpring className="text-green-700" />, name: "Spring Boot" },
+  { icon: <SiMicrogenetics className="text-green-500" />, name: "Microservices" },
+  { icon: <SiApachekafka className="text-orange-600" />, name: "Kafka" },
+  { icon: <SiElasticsearch className="text-blue-400" />, name: "Elasticsearch" },
+  { icon: <SiMysql className="text-blue-600" />, name: "MySQL" },
+  { icon: <SiPostgresql className="text-blue-800" />, name: "PostgreSQL" },
+  // { icon: <SiCassandra className="text-purple-600" />, name: "Cassandra" },
+  { icon: <FaDocker className="text-blue-400" />, name: "Docker" },
+  // { icon: <SiOpenshift className="text-red-700" />, name: "OpenShift" },
+  { icon: <SiPivotaltracker className="text-green-600" />, name: "PCF" },
+  { icon: <SiJenkins className="text-red-600" />, name: "Jenkins" },
+  { icon: <FaGitAlt className="text-orange-600" />, name: "Git" },
+  { icon: <FaGithub className="text-black" />, name: "GitHub" },
+  { icon: <SiPostman className="text-orange-500" />, name: "Postman" },
+  { icon: <SiJunit5 className="text-green-500" />, name: "JUnit" },
+  { icon: <SiSonarqube className="text-indigo-600" />, name: "SonarQube" },
+  { icon: <SiHtml5 className="text-orange-600" />, name: "HTML5" },
+  { icon: <SiCss3 className="text-blue-600" />, name: "CSS3" },
+  { icon: <SiJavascript className="text-yellow-500" />, name: "JavaScript" },
   ];
 
   // Animate stats on component mount
@@ -69,7 +102,7 @@ const About = () => {
               About Me
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 mt-2 transition-colors duration-300 max-w-2xl mx-auto">
-              Innovative Full Stack Developer with expertise in Blockchain & Web3
+              Innovative Java Full Stack Developer with expertise in Java 11+, Spring Boot & Microservices.
             </p>
           </motion.div>
         </div>
@@ -199,15 +232,15 @@ const About = () => {
               <div className="flex items-start mb-4">
                 <FaEthereum className="text-3xl mr-3 text-white" />
                 <div>
-                  <h3 className="text-xl font-bold">Blockchain & Web3 Expertise</h3>
-                  <p className="text-indigo-100">Specialized in decentralized solutions</p>
+                  <h3 className="text-xl font-bold">Java 11+ Spring Boot & Microservices Expertise</h3>
+                  <p className="text-indigo-100">Specialized in Banking solutions</p>
                 </div>
               </div>
               
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-white rounded-full mr-2"></div>
-                  <span>Smart Contract Development (Solidity)</span>
+                  <span>RESTFul API's Development (Solidity)</span>
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-white rounded-full mr-2"></div>
