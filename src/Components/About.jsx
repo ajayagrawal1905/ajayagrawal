@@ -48,7 +48,7 @@ const About = () => {
   
   // Tech stack items with icons
   const techStack = [
-    // { icon: <FaJava className="text-red-600" />, name: "Java" },
+  { icon: <FaCode className="text-blue-600" />, name: "Java" },
   { icon: <SiSpring className="text-green-700" />, name: "Spring Boot" },
   { icon: <SiMicrogenetics className="text-green-500" />, name: "Microservices" },
   { icon: <SiApachekafka className="text-orange-600" />, name: "Kafka" },
@@ -58,6 +58,7 @@ const About = () => {
   // { icon: <SiCassandra className="text-purple-600" />, name: "Cassandra" },
   { icon: <FaDocker className="text-blue-400" />, name: "Docker" },
   // { icon: <SiOpenshift className="text-red-700" />, name: "OpenShift" },
+  { icon: <FaPython className="text-yellow-500" />, name: "Python" },
   { icon: <SiPivotaltracker className="text-green-600" />, name: "PCF" },
   { icon: <SiJenkins className="text-red-600" />, name: "Jenkins" },
   { icon: <FaGitAlt className="text-orange-600" />, name: "Git" },
@@ -102,7 +103,8 @@ const About = () => {
               About Me
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 mt-2 transition-colors duration-300 max-w-2xl mx-auto">
-              Innovative Java Full Stack Developer with expertise in Java 11+, Spring Boot & Microservices.
+              {/* Innovative Java Full Stack Developer with expertise in Java 11+, Spring Boot & Microservices. */}
+              Passionate about building scalable Enterprise and Banking solutions using modern Java technologies and Cloud platforms.
             </p>
           </motion.div>
         </div>
@@ -124,15 +126,15 @@ const About = () => {
               className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg"
             >
               <p className="mb-4">
-                Hello! I'm <span className="font-semibold text-indigo-600 dark:text-indigo-400">Ajay Agrawal</span>, a passionate Full Stack Developer and Blockchain Engineer based in India with <span className="font-bold">{yearsExp}+ years</span> of experience building robust web applications and decentralized solutions.
+                Hello! I'm <span className="font-semibold text-indigo-600 dark:text-indigo-400">Ajay Agrawal</span>, a passionate Java Full Stack Developer and Backend Engineer based in India with <span className="font-bold">{yearsExp}+ years</span> of experience building robust enterprise applications and banking solutions.
               </p>
               
               <p className="mb-4">
-                I specialize in <span className="font-semibold text-indigo-600 dark:text-indigo-400">JavaScript, React, Node.js</span>, and modern blockchain technologies. My journey began during college, where I discovered my passion for creating innovative solutions that solve real-world problems.
+                I specialize in <span className="font-semibold text-indigo-600 dark:text-indigo-400">Java, Spring Boot, Microservices & Kafka</span>, and modern Cloud Platforms. My journey began during college, where I discovered my passion for creating innovative solutions that solve real-world problems.
               </p>
               
               <p className="mb-4">
-                Over the past few years, I've developed a strong expertise in <span className="font-semibold text-indigo-600 dark:text-indigo-400">Web3 development</span>, building decentralized applications (dApps) on Ethereum, Polygon, and other EVM-compatible chains. I have hands-on experience with Solidity, smart contract development, and integrating blockchain functionality into web applications.
+                Over the past few years, I've developed a strong expertise in <span className="font-semibold text-indigo-600 dark:text-indigo-400">Enterprise application development</span>, building Banking applications (FSApps) on Java, Spring Boot, Microservices & Kafka. I have hands-on experience with cloud-native development, containerization, and orchestration using tools like Docker and Kubernetes.
               </p>
               
               <p className="mb-4">
@@ -140,7 +142,7 @@ const About = () => {
               </p>
               
               <p>
-                My goal is to build solutions that not only meet business needs but deliver <span className="font-semibold text-indigo-600 dark:text-indigo-400">real value</span> to users while pushing the boundaries of what's possible with blockchain technology.
+                My goal is to build solutions that not only meet business needs but deliver <span className="font-semibold text-indigo-600 dark:text-indigo-400">real value</span> to users while pushing the boundaries of what's possible with cloud-native development.
               </p>
             </motion.div>
             
@@ -244,19 +246,19 @@ const About = () => {
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-white rounded-full mr-2"></div>
-                  <span>DeFi & NFT Application Development</span>
+                  <span>Banking Application Development</span>
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-white rounded-full mr-2"></div>
-                  <span>Ethereum, Polygon, Binance Smart Chain</span>
+                  <span>Spring Boot, Kafka, Microservices & Cloud-Native Development</span>
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-white rounded-full mr-2"></div>
-                  <span> Web3.js, Ethers.js, Hardhat</span>
+                  <span> OpenShift, AWS & PCF (Pivotal Cloud Foundry)</span>
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-white rounded-full mr-2"></div>
-                  <span>Tokenomics & DAO Architecture</span>
+                  <span>Docker & Kubernetes</span>
                 </li>
               </ul>
             </motion.div>
@@ -276,30 +278,41 @@ const About = () => {
                     <FaMedal className="text-indigo-600 dark:text-indigo-400" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-800 dark:text-white">Certified Blockchain Developer</h4>
-                    <p className="text-gray-600 dark:text-gray-400 text-sm">Blockchain Council, 2022</p>
+                    <h4 className="font-semibold text-gray-800 dark:text-white">Microservices with Spring Boot &
+Spring Cloud</h4>
+                    <p className="text-gray-600 dark:text-gray-400 text-sm">Udemy, 2022</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="bg-indigo-100 dark:bg-indigo-900/30 p-2 rounded-lg mr-3">
                     <FaMedal className="text-indigo-600 dark:text-indigo-400" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-800 dark:text-white">AWS Certified Developer</h4>
-                    <p className="text-gray-600 dark:text-gray-400 text-sm">Amazon Web Services, 2021</p>
+                    <h4 className="font-semibold text-gray-800 dark:text-white">Spring Security – Authentication & Authorization</h4>
+                    <p className="text-gray-600 dark:text-gray-400 text-sm">Udemy, 2024</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="bg-indigo-100 dark:bg-indigo-900/30 p-2 rounded-lg mr-3">
                     <FaMedal className="text-indigo-600 dark:text-indigo-400" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-800 dark:text-white">React Advanced Concepts</h4>
-                    <p className="text-gray-600 dark:text-gray-400 text-sm">Frontend Masters, 2020</p>
+                    <h4 className="font-semibold text-gray-800 dark:text-white">GitHub Copilot for SDE</h4>
+                    <p className="text-gray-600 dark:text-gray-400 text-sm">Microsoft, 2024</p>
                   </div>
                 </div>
+
+                <div className="flex items-start">
+                  <div className="bg-indigo-100 dark:bg-indigo-900/30 p-2 rounded-lg mr-3">
+                    <FaMedal className="text-indigo-600 dark:text-indigo-400" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-800 dark:text-white">DSA: Deep Dive Using Java</h4>
+                    <p className="text-gray-600 dark:text-gray-400 text-sm">Udemy, June 2024</p>
+                  </div>
+                </div> 
               </div>
             </motion.div>
           </motion.div>

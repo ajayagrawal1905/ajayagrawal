@@ -102,7 +102,7 @@ const Navbar = () => {
                 scrollToSection('home');
               }}
             >
-              <span className="text-indigo-600 dark:text-indigo-400">Ajay</span>
+              <span className="text-indigo-600 dark:text-indigo-400">Ajay Agrawal</span>
               <span className="text-indigo-400 dark:text-indigo-300 animate-pulse">.</span>
             </a>
           </div>

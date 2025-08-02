@@ -8,7 +8,7 @@ const timelineData = [
     icon: <FaBriefcase />,
     title: 'Associate Consultant',
     company: 'Capgemini, Pune',
-    date: 'June 2021 – Present',
+    date: 'June 2021 – Present (4 years 3 months)',
     description: [
 
       'Developed backend modules for payment solutions in the banking domain using Java 8, Spring Boot, and Microservices.',
@@ -26,12 +26,23 @@ const timelineData = [
     icon: <FaBriefcase />,
     title: 'R&D Software Engineer-EPP',
     company: 'Rucha Engineers, Aurangabad',
-    date: 'Mar 2020 - June 2021',
+    date: 'Mar 2020 - June 2021 (1 year 4 months)',
     description: [
       'Built and maintained internal management systems using Spring Boot, Hibernate, MySQL, and JSP.',
       'Developed the backend of a Ticket Management System, automating IT issue logging, resolution workflows, and reporting.',
       'Designed Leave Management, Training, and Recruitment Systems, integrating role-based access and email notifications (JavaMail).',
       'Used Ajax for smoother user interactions and improved front-end responsiveness with Bootstrap 4.'
+    ],
+  },
+  {
+    type: 'experience',
+    icon: <FaBriefcase />,
+    title: 'Internship',
+    company: 'Synthesys Solutions, Aurangabad',
+    date: 'Aug 2018 - Apr 2019 (9 months)',
+    description: [
+
+      'Develop/Augment an android application which aims to give the ability to potential student and their families to submit a question in a chatbot and get convincing replies .an application to understand and query textual information using knowledge graphs. Created automated scripts to extract , query, and test textual information for the admission process.'
     ],
   },
   {

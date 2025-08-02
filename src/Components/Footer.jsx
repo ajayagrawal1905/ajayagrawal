@@ -23,7 +23,7 @@ const Footer = () => {
           href="#hero"
           className="text-3xl font-bold text-indigo-600 dark:text-indigo-400 tracking-wide mb-4"
         >
-          Ajay<span className="text-gray-800 dark:text-white">.</span>
+          Ajay Agrawal<span className="text-gray-800 dark:text-white">.</span>
         </a>
 
         {/* Navigation Links */}

@@ -15,8 +15,8 @@ return (
             
             {/* Hero Text */}
             <div className="space-y-6">
-                <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight">
-                    Hi, I’m <span className="text-indigo-600 dark:text-indigo-400">Ajay Agrawal</span>
+                <h1 className="text-4xl sm:text-4xl font-extrabold text-gray-900 dark:text-white leading-tight">
+                    Hi, I’m <span className="text-indigo-600 dark:text-indigo-400">Ajay Manoj Agrawal</span>
                 </h1>
                 <h2 className="text-xl sm:text-2xl font-semibold text-gray-700 dark:text-gray-300">
                     Java Full Stack Developer
@@ -62,7 +62,7 @@ testing with JUnit, and CI/CD integration.
                 {/* Social Icons */}
                 <div className="flex items-center gap-5 pt-6">
                     <a
-                        href="https://github.com/RohitAgrawal7"
+                        href="https://github.com/ajayagrawal1905"
                         className="text-gray-600 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -70,7 +70,7 @@ testing with JUnit, and CI/CD integration.
                         <FaGithub size={20} />
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/Ajay-agrawal7/"
+                        href="www.linkedin.com/in/ajayagrawal1905"
                         className="text-blue-700 hover:text-blue-800 transition"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -78,7 +78,7 @@ testing with JUnit, and CI/CD integration.
                         <FaLinkedinIn size={20} />
                     </a>
                     <a
-                        href="https://twitter.com/rohit_agrawal7"
+                        href="https://twitter.com/AjayAgrawal_1"
                         className="text-blue-400 hover:text-blue-500 transition"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -86,7 +86,7 @@ testing with JUnit, and CI/CD integration.
                         <FaTwitter size={20} />
                     </a>
                     <a
-                        href="mailto:rohitmagrawal.work@gmail.com"
+                        href="mailto:ajayagrawal1905@gmail.com"
                         className="text-gray-900 hover:text-gray-600 transition"
                         target="_blank"
                         rel="noopener noreferrer"
