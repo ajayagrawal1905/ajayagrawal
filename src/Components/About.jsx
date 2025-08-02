@@ -91,7 +91,7 @@ const About = () => {
               className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg"
             >
               <p className="mb-4">
-                Hello! I'm <span className="font-semibold text-indigo-600 dark:text-indigo-400">Rohit Agrawal</span>, a passionate Full Stack Developer and Blockchain Engineer based in India with <span className="font-bold">{yearsExp}+ years</span> of experience building robust web applications and decentralized solutions.
+                Hello! I'm <span className="font-semibold text-indigo-600 dark:text-indigo-400">Ajay Agrawal</span>, a passionate Full Stack Developer and Blockchain Engineer based in India with <span className="font-bold">{yearsExp}+ years</span> of experience building robust web applications and decentralized solutions.
               </p>
               
               <p className="mb-4">

@@ -23,7 +23,7 @@ const Footer = () => {
           href="#hero"
           className="text-3xl font-bold text-indigo-600 dark:text-indigo-400 tracking-wide mb-4"
         >
-          Rohit<span className="text-gray-800 dark:text-white">.</span>
+          Ajay<span className="text-gray-800 dark:text-white">.</span>
         </a>
 
         {/* Navigation Links */}
@@ -54,7 +54,7 @@ const Footer = () => {
                 <FaGithub />
             </motion.a>
             <motion.a
-                href="https://www.linkedin.com/in/rohit-agrawal7"
+                href="https://www.linkedin.com/in/Ajay-agrawal7"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.2 }}
@@ -95,7 +95,7 @@ const Footer = () => {
             </motion.a> */}
         </div>
         <p className="text-sm text-gray-500 dark:text-gray-500">
-          © {new Date().getFullYear()} Rohit Agrawal. All rights reserved.
+          © {new Date().getFullYear()} Ajay Agrawal. All rights reserved.
         </p>
       </motion.div>
     </footer>

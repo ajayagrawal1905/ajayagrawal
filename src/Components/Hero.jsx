@@ -16,7 +16,7 @@ return (
             {/* Hero Text */}
             <div className="space-y-6">
                 <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight">
-                    Hi, I’m <span className="text-indigo-600 dark:text-indigo-400">Rohit Agrawal</span>
+                    Hi, I’m <span className="text-indigo-600 dark:text-indigo-400">Ajay Agrawal</span>
                 </h1>
                 <h2 className="text-xl sm:text-2xl font-semibold text-gray-700 dark:text-gray-300">
                     Full Stack Developer
@@ -64,7 +64,7 @@ return (
                         <FaGithub size={20} />
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/rohit-agrawal7/"
+                        href="https://www.linkedin.com/in/Ajay-agrawal7/"
                         className="text-blue-700 hover:text-blue-800 transition"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -94,7 +94,7 @@ return (
                 <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-indigo-600 dark:border-indigo-400 shadow-lg">
                     <img
                         src="./PassportSize.jpg"
-                        alt="Rohit Agrawal"
+                        alt="Ajay Agrawal"
                         className="w-full h-full object-cover"
                     />
                 </div>
