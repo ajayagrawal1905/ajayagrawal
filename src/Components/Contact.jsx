@@ -88,21 +88,21 @@ const handleSubmit = async e => {
                 <FaEnvelope className="text-indigo-600 dark:text-indigo-400 text-xl mt-1" />
                 <div>
                   <h4 className="font-semibold">Email</h4>
-                  <p>RohitmAgrawal.work@gmail.com</p>
+                  <p>ajayagrawal1905@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <FaPhone className="text-indigo-600 dark:text-indigo-400 text-xl mt-1" />
                 <div>
                   <h4 className="font-semibold">Phone</h4>
-                  <p>+91 9579767372</p>
+                  <p>+91 9421671195</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <FaMapMarkerAlt className="text-indigo-600 dark:text-indigo-400 text-xl mt-1" />
                 <div>
                   <h4 className="font-semibold">Location</h4>
-                  <p>Aurangabad, Maharashtra, India</p>
+                  <p>Pune, Maharashtra, India</p>
                 </div>
               </div>
             </div>

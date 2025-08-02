@@ -6,35 +6,46 @@ const timelineData = [
   {
     type: 'experience',
     icon: <FaBriefcase />,
-    title: 'Web Developer Intern',
-    company: 'AdToken, Bangalore',
-    date: 'Nov 2024 – Present',
+    title: 'Associate Consultant',
+    company: 'Capgemini, Pune',
+    date: 'June 2021 – Present',
     description: [
-      'Built a decentralized widget enabling seamless crypto swaps using Web3.js and smart contracts.',
-      'Crafted animated, mobile-friendly landing pages with reusable React and TypeScript components.',
-      'Developed multi-chain faucet platforms supporting Ethereum, Solana, and Sui testnets.'
+
+      'Developed backend modules for payment solutions in the banking domain using Java 8, Spring Boot, and Microservices.',
+      'Implemented REST APIs with proper validation, exception handling, and Swagger documentation.',
+      'Integrated Kafka for asynchronous messaging and Elasticsearch for dynamic search capabilities.',
+      'Deployed microservices on PCF (Pivotal Cloud Foundry), following CI/CD pipelines and containerization best practices.',
+      'Worked with OCP (OpenShift) for container orchestration and handled config management and logging.',
+      'Key Projects:',
+      'Led the backend development of a transaction processing microservice that reduced API response time by 35%.',
+      'Collaborated with DevOps team to set up monitoring and alerting using ELK stack.'
     ],
   },
   {
     type: 'experience',
     icon: <FaBriefcase />,
-    title: 'Technical Support Engineer',
-    company: 'Square Yards, Pune',
-    date: 'Apr 2024 – Nov 2024',
+    title: 'R&D Software Engineer-EPP',
+    company: 'Rucha Engineers, Aurangabad',
+    date: 'Mar 2020 - June 2021',
     description: [
-      'Resolved software crashes and deployment issues across web environments.',
-      'Maintained system integrity and reduced client downtime through advanced debugging techniques.'
+      'Built and maintained internal management systems using Spring Boot, Hibernate, MySQL, and JSP.',
+      'Developed the backend of a Ticket Management System, automating IT issue logging, resolution workflows, and reporting.',
+      'Designed Leave Management, Training, and Recruitment Systems, integrating role-based access and email notifications (JavaMail).',
+      'Used Ajax for smoother user interactions and improved front-end responsiveness with Bootstrap 4.'
     ],
   },
   {
     type: 'education',
     icon: <FaGraduationCap />,
     title: 'Bachelor of Technology',
-    company: 'Marathwada Institute of Technology, Aurangabad',
-    date: '2018 – 2022',
+    company: 'MGM’s Jawaharlal Nehru Engineering College, Aurangabad, Aurangabad',
+    date: '2015 – 2020',
     description: [
-      'Graduated with 8.24 CGPA.',
-      'Completed projects in job portals, car rental systems, and library management using MERN and SpringBoot stacks.'
+      'Graduated with 6 CGPA.',
+
+      'Graduated with a B.E. in Computer Science and gained hands-on experience through academic and self-driven projects involving Spring Boot, JWT, Kafka, and Docker. Developed scalable systems focusing on security, modular design, and event-driven architecture.'
+
+      // 'Completed projects in job portals, car rental systems, and library management using MERN and SpringBoot stacks.'
     ],
   }
 ];

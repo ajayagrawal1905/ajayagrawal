@@ -42,9 +42,9 @@ const About = () => {
     const animateStats = () => {
       let count = 0;
       const interval = setInterval(() => {
-        if (count <= 1) setYearsExp(count);
-        if (count <= 10) setProjects(count);
-        if (count <= 30) setClients(count);
+        if (count <= 5) setYearsExp(count);
+        if (count <= 20) setProjects(count);
+        if (count <= 4) setClients(count);
         if (count <= 5) setAwards(count);
         
         count++;
